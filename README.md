@@ -5,6 +5,14 @@
 
 > **Independent hands-on cybersecurity engineering project.** The live application is protected by Cloudflare Access; this public repository is a **project showcase, not the application's source code or an open-access exam service**. No purchased PDFs, commercial question banks, credentials, or private exam results are distributed here.
 
+## Application preview
+
+![Security+ Exam Lab — deployed protected Production homepage](screenshots/11-production-homepage.png)
+
+*Verified Production interface showing the original demonstration bank. Purchased question content and account information are not included.*
+
+[View the nine illustrated Production release steps](docs/SCREENSHOT-WALKTHROUGH.md#phase-2--verified-production-release)
+
 ## What I built
 
 I developed a responsive Security+ (SY0-701) practice exam application that lets me study, review missed questions, flag difficult topics, and save my progress across a computer, tablet, and phone.
