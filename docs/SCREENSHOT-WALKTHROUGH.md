@@ -2,7 +2,7 @@
 
 **Project:** Security+ Exam Lab · **Coverage:** Architecture, Cloudflare deployment, Access protection, D1 progress, exam interface, local imports, and release verification.
 
-This is the public-safe evidence narrative. The original **private** project retains the full 16-image development-to-release sequence. This public repository uses the **nine independently sanitized Production images (08–16)** once their PNGs are copied into its `screenshots/` folder. Early historical screenshots (01–07) are described rather than reposted, so no old account test signals or private details appear publicly.
+This is the public-safe evidence narrative. The original **private** project retains the full 16-image development-to-release sequence. This public repository displays **nine sanitized Production screenshots (08–16)** within the matching release steps below. Early historical screenshots (01–07) are described rather than reposted, so no old account test signals or private details appear publicly.
 
 ## Phase 1 — Build the application (historical development steps)
 
@@ -29,11 +29,13 @@ I checked D1 synchronization from authenticated devices and exercised save/resum
 
 ## Phase 2 — Verified Production release
 
-The following file names correspond to the sanitized PNGs approved for public portfolio presentation. Each example is a real project screenshot, not stock artwork. **Until those PNGs are added to this public repository, the labels below are descriptive captions rather than broken image links.**
+These nine real, sanitized project screenshots are now embedded beneath their corresponding release steps. They are not stock illustrations. Sensitive values and licensed question pages are omitted.
 
 ### Step 08. Release to Production
 
-**Image:** `08-production-deployment-success.png`
+![Successful Production deployment from the main branch](../screenshots/08-production-deployment-success.png)
+
+*Evidence: successful production deployment from the main branch.*
 
 Cloudflare Pages displayed a successful Production deployment from the GitHub `main` branch.
 
@@ -41,7 +43,9 @@ Cloudflare Pages displayed a successful Production deployment from the GitHub `m
 
 ### Step 09. Confirm Production database binding
 
-**Image:** `09-production-d1-binding.png`
+![Cloudflare D1 database binding for Production](../screenshots/09-production-d1-binding.png)
+
+*Evidence: cloudflare d1 database binding for production.*
 
 Verified the `DB` binding used the pre-existing D1 progress database. No user-data reset or new database was required.
 
@@ -49,7 +53,9 @@ Verified the `DB` binding used the pre-existing D1 progress database. No user-da
 
 ### Step 10. Verify Production configuration names
 
-**Image:** `10-production-environment-variable-names.png`
+![Cloudflare Access environment variable names with values hidden](../screenshots/10-production-environment-variable-names.png)
+
+*Evidence: cloudflare access environment variable names with values hidden.*
 
 Shows `CF_ACCESS_AUD`, `CF_ACCESS_ISSUER` and `SYNC_ALLOWED_EMAIL` without exposing their actual values.
 
@@ -57,7 +63,9 @@ Shows `CF_ACCESS_AUD`, `CF_ACCESS_ISSUER` and `SYNC_ALLOWED_EMAIL` without expos
 
 ### Step 11. Open the protected Production app
 
-**Image:** `11-production-homepage.png`
+![Protected Exam Lab Production homepage](../screenshots/11-production-homepage.png)
+
+*Evidence: protected exam lab production homepage.*
 
 The deployed Security+ Exam Lab loaded with the expected study controls and `Synced` indicator. This is a **demonstration-content homepage** captured before imported personal banks were restored to that browser.
 
@@ -65,7 +73,9 @@ The deployed Security+ Exam Lab loaded with the expected study controls and `Syn
 
 ### Step 12. Verify A, B and C indexes after local import
 
-**Image:** `12-production-exam-a-b-c-counts.png`
+![Locally imported practice exam A B and C question counts](../screenshots/12-production-exam-a-b-c-counts.png)
+
+*Evidence: locally imported practice exam a b and c question counts.*
 
 Local imports showed A/B/C with 90 questions each (85 MCQs and five visual PBQs). The screenshots reveal counts, **not purchased question pages or answers**.
 
@@ -73,7 +83,9 @@ Local imports showed A/B/C with 90 questions each (85 MCQs and five visual PBQs)
 
 ### Step 13. Confirm saved results remained available
 
-**Image:** `13-existing-results-history.png`
+![Existing exam result entries with private results obscured](../screenshots/13-existing-results-history.png)
+
+*Evidence: existing exam result entries with private results obscured.*
 
 Five prior exam attempts were visible after Production deployment; personal dates and scores are obscured.
 
@@ -81,7 +93,9 @@ Five prior exam attempts were visible after Production deployment; personal date
 
 ### Step 14. Confirm Production cloud synchronization
 
-**Image:** `14-production-cloud-sync.png`
+![Production Cloud Sync Check with private values redacted](../screenshots/14-production-cloud-sync.png)
+
+*Evidence: production cloud sync check with private values redacted.*
 
 The Production Cloud Sync Check reported a synchronized D1 connection. Account identifiers and test code are redacted.
 
@@ -89,7 +103,9 @@ The Production Cloud Sync Check reported a synchronized D1 connection. Account i
 
 ### Step 15. Compare Preview and Production continuity
 
-**Image:** `15-preview-cloud-sync.png`
+![Preview Cloud Sync Check with private values redacted](../screenshots/15-preview-cloud-sync.png)
+
+*Evidence: preview cloud sync check with private values redacted.*
 
 The Preview Cloud Sync Check was synchronized; original private screens showed matching signal and connection identifiers with Production. Both values remain redacted here.
 
@@ -97,7 +113,9 @@ The Preview Cloud Sync Check was synchronized; original private screens showed m
 
 ### Step 16. Confirm local-only PDF import
 
-**Image:** `16-successful-local-pdf-import.png`
+![Local PDF import confirmation without original purchased content](../screenshots/16-successful-local-pdf-import.png)
+
+*Evidence: local pdf import confirmation without original purchased content.*
 
 The importer recognized 85 multiple-choice items and five visual PBQs in each exam. The original document name was hidden. **No R2 document upload was made.**
 
